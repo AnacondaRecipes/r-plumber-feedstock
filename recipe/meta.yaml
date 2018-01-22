@@ -10,8 +10,8 @@ package:
 source:
   fn: plumber_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/plumber_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/plumber/plumber_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/plumber_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/plumber/plumber_{{ version }}.tar.gz
   sha256: 331a4850a436f715eea3493bbf12ddf50201803c8fce3e670ba293d3cfc5ab3b
 
 
